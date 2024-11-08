@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .list li {
+    margin: 0.75rem 0;
+  }
+  
+  .info {
+    color: rgb(0, 49, 0);
+    background-color: rgb(230, 246, 230);
+    padding: 1rem;
+  }
+  
+  .accordion {
+    border: none;
+  }
+
+  .itemBtn {
+    cursor: pointer;
+    display: flex;
+    gap:1rem;
+    align-items: left;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f2f4f3;
+    background-color: #355070;
+    border: none;
+  }
+  
+  .itemBtn:hover {
+    background-color: #778da9;
+  }
+  
+  .itemBtnExpanded {
+    background-color: #364156;
+  }
+  
+  .itemContent {
+    background-color: #666a86;
+  }
+  
+  .itemPanel {
+    padding: 1rem;
+  }
+  
+  .chevron {
+    margin-left: auto;
+    transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+    color: #faf9f9;
+  }
+  
+  .itemBtnExpanded .chevron {
+    transform: rotate(180deg);
+  }
+  

@@ -1,0 +1,10 @@
+export const host = "http://localhost:5000";
+export const registerRoute = `${host}/api/auth/register`
+export const loginRoute = `${host}/api/auth/login`
+export const allUsersRoute = `${host}/api/auth/allusers`
+export const logoutRoute = `${host}/api/auth/logoutRoute`
+export const sendMessageRoute = `${host}/api/messages/addmsg`
+export const getAllMessageRoute = `${host}/api/messages/getmsg`
+export const getAllMessageHistory = `${host}/api/messages/getallmsgHistory`
+export const sendFileRoute = `${host}/api/messages/get-files`
+export const openFileRoute = `${host}/api/messages/open-files`
